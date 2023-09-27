@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margines_zewn"
+
+            android:backgroundTint="@color/kolor_przycisku"
+            android:padding="@dimen/margines_wewn"
+            android:text="@string/wstecz" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/obraz1" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margines_zewn"
+
+            android:backgroundTint="@color/kolor_przycisku"
+            android:padding="@dimen/margines_wewn"
+            android:text="@string/dalej" />
+    </LinearLayout>
+
+    <!--
+    matchparent - rozmiar nadrzędnego
+    wrap content - dostosuj do zawartosci
+    -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/margines_wewn"
+        android:text="Wybierz numer zdjęcia"
+        android:textColor="@color/kolor_przycisku"
+        android:textSize="@dimen/roxzmiar_czcionki" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:backgroundTint="@color/kolor_przycisku"
+            android:padding="@dimen/margines_wewn"
+            android:text="@string/poka_obraz"
+            android:textColor="#44dd99" />
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margines_zewn"
+            android:ems="10"
+            android:hint="numer zdjecia"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/kolor_przycisku"
+            android:text="@string/poka_obraz" />
+    </LinearLayout>
+
+
+</LinearLayout>
