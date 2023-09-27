@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Galeria3P</string>
+    <string name="dalej">Dalej</string>
+    <string name="wstecz">Wstecz</string>
+    <string name="poka_obraz">Pokaż obraz</string>
+    <string name="ukryj_obraz">Ukryj obraz</string>
 </resources>

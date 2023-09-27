@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Galeria3P</string>
+    <string name="dalej">go</string>
+    <string name="wstecz">back</string>
+    <string name="poka_obraz">schow picture</string>
+    <string name="ukryj_obraz">hide picture</string>
+</resources>
