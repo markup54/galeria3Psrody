@@ -2,4 +2,5 @@
 <resources>
     <dimen name="margines_wewn">16dp</dimen>
     <dimen name="margines_zewn">24dp</dimen>
+    <dimen name="roxzmiar_czcionki">24sp</dimen>
 </resources>

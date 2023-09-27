@@ -11,9 +11,10 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="300dp"
         android:adjustViewBounds="true"
-        app:srcCompat="@drawable/obraz1" />
+        app:srcCompat="@drawable/obraz1"
+        android:layout_weight="2"/>
     <!--
     matchparent - rozmiar nadrzędnego
     wrap content - dostosuj do zawartosci
@@ -26,17 +27,15 @@
         android:backgroundTint="@color/kolor_przycisku"
         android:padding="@dimen/margines_wewn"
         android:text="@string/poka_obraz"
+        android:layout_weight="1"
         android:textColor="#44dd99" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:textColor="#A12D2D" />
+
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:orientation="horizontal">
 
         <Button
@@ -59,5 +58,31 @@
             android:layout_margin="@dimen/margines_zewn"
             android:text="@string/dalej" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:textSize="@dimen/roxzmiar_czcionki"
+        android:textColor="@color/kolor_przycisku"
+        android:padding="@dimen/margines_wewn"
+        android:gravity="center"
+        android:text="Wybierz numer zdjęcia" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="numer zdjecia"
+        android:layout_margin="@dimen/margines_zewn"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/kolor_przycisku"
+        android:text="@string/poka_obraz" />
 
 </LinearLayout>
